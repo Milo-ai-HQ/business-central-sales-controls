@@ -1,0 +1,15 @@
+{
+  "id": "6f1c0b52-3a8e-4f0c-9d0e-2b7a5c1e9a41",
+  "name": "AIDV Sales Controls",
+  "publisher": "AIDV",
+  "version": "1.0.0.0",
+  "brief": "Hard credit-limit block and an open-orders-by-customer analysis.",
+  "description": "Blocks sales lines that push a customer over the credit limit (UI, API and integrations alike) and adds an Open Orders by Customer query/page.",
+  "platform": "24.0.0.0",
+  "application": "24.0.0.0",
+  "runtime": "13.0",
+  "target": "Cloud",
+  "idRanges": [{ "from": 50100, "to": 50149 }],
+  "features": ["NoImplicitWith", "TranslationFile"],
+  "resourceExposurePolicy": { "allowDebugging": true, "allowDownloadingSource": true, "includeSourceInSymbolFile": true }
+}
